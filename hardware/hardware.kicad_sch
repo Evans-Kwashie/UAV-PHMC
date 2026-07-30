@@ -1,0 +1,204 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cab50fbb-ebde-4823-857c-a8c6585217dd")
+	(paper "A4")
+	(title_block
+		(title "Payload Management & Health Controller")
+		(date "2026-07-30")
+		(rev "V1.0")
+		(comment 1 "Project launch")
+	)
+	(lib_symbols)
+	(sheet
+		(at 21.59 104.14)
+		(size 48.26 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5ba43ef3-7374-4443-bbf5-dc397a5562a0")
+		(property "Sheetname" "Connectors_Comms"
+			(at 21.59 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors_Comms.kicad_sch"
+			(at 21.59 177.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 83.82 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c4031b1d-7f3d-4b6a-a2f0-344523c40f4b")
+		(property "Sheetname" "Power_Input_Protection"
+			(at 17.78 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Input_Protection.kicad_sch"
+			(at 17.78 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 20.32)
+		(size 52.07 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4bb029e-f2b4-4211-8168-30cb6e1b2574")
+		(property "Sheetname" "Current_Sense"
+			(at 205.74 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense.kicad_sch"
+			(at 205.74 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 20.32)
+		(size 80.01 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d8edef81-739b-47b1-bac8-ef065b530897")
+		(property "Sheetname" "MCU"
+			(at 114.3 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 114.3 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

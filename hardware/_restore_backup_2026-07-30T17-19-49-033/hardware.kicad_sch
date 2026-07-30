@@ -1,0 +1,296 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cab50fbb-ebde-4823-857c-a8c6585217dd")
+	(paper "A4")
+	(title_block
+		(title "Payload Management & Health Controller")
+		(date "2026-07-30")
+		(rev "V1.0")
+		(comment 1 "Project launch")
+	)
+	(lib_symbols)
+	(sheet
+		(at 24.13 86.36)
+		(size 48.26 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5ba43ef3-7374-4443-bbf5-dc397a5562a0")
+		(property "Sheetname" "Connectors_Comms"
+			(at 24.13 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors_Comms.kicad_sch"
+			(at 24.13 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 45.72)
+		(size 93.98 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b5e5a953-af6d-47a5-bf85-714d0af64cf2")
+		(property "Sheetname" "Rail_B_5V"
+			(at 111.76 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rail_B_5V.kicad_sch"
+			(at 111.76 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 20.32)
+		(size 97.79 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b6ee8bb3-38a5-4fb9-9043-abdc0928c5c4")
+		(property "Sheetname" "Rail_A_3V3"
+			(at 110.49 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rail_A_3V3.kicad_sch"
+			(at 110.49 36.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 83.82 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c4031b1d-7f3d-4b6a-a2f0-344523c40f4b")
+		(property "Sheetname" "Power_Input_Protection"
+			(at 17.78 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Input_Protection.kicad_sch"
+			(at 17.78 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 57.15)
+		(size 52.07 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4bb029e-f2b4-4211-8168-30cb6e1b2574")
+		(property "Sheetname" "Current_Sense"
+			(at 219.71 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense.kicad_sch"
+			(at 219.71 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 86.36)
+		(size 80.01 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d8edef81-739b-47b1-bac8-ef065b530897")
+		(property "Sheetname" "MCU"
+			(at 105.41 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 105.41 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
