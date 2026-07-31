@@ -446,9 +446,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "error",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -466,17 +466,17 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "error",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
-      "unconnected_wire_endpoint": "warning",
+      "unconnected_wire_endpoint": "error",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -598,12 +598,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,7 +666,7 @@
         "uuid": "cab50fbb-ebde-4823-857c-a8c6585217dd"
       }
     ],
-    "used_designators": "J1,F1,Q1,L1-2,D1,#PWR1-19,U1-2,C1-6,C9-12,R1-2,R4-6",
+    "used_designators": "J1,F1,Q1,L1-2,D1-3,#PWR1-23,U1-2,C1-6,C9-12,C16-17,#FLG1-3,R1-2,R4-6,R9-11,H1-4,TP1-6",
     "variants": []
   },
   "sheets": [
