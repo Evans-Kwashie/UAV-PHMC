@@ -1655,7 +1655,7 @@
 	)
 	(text "Power Rail for The Camera\n"
 		(exclude_from_sim no)
-		(at 158.75 181.864 0)
+		(at 153.416 180.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,7 +1665,7 @@
 	)
 	(text "Power Rail for The MCU\n"
 		(exclude_from_sim no)
-		(at 268.478 113.03 0)
+		(at 265.43 112.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
