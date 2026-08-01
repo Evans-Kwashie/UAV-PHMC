@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\USER\\Desktop\\UAV-PHMC\\hardware\\hardware.kicad_sch")
-		(date "2026-07-31T21:00:46")
+		(date "2026-08-01T15:07:38")
 		(tool "Eeschema 10.0.4")
 		(sheet
 			(number "1")
@@ -249,11 +249,11 @@
 		(comp
 			(ref "C1")
 			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -303,11 +303,11 @@
 		(comp
 			(ref "C2")
 			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -357,11 +357,11 @@
 		(comp
 			(ref "C3")
 			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -411,11 +411,11 @@
 		(comp
 			(ref "C4")
 			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -465,11 +465,11 @@
 		(comp
 			(ref "C5")
 			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -519,11 +519,11 @@
 		(comp
 			(ref "C6")
 			(value "22uF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -573,11 +573,11 @@
 		(comp
 			(ref "C7")
 			(value "22uF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -627,11 +627,11 @@
 		(comp
 			(ref "C8")
 			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -681,11 +681,11 @@
 		(comp
 			(ref "C9")
 			(value "10uF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -735,11 +735,11 @@
 		(comp
 			(ref "C10")
 			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -789,11 +789,11 @@
 		(comp
 			(ref "C11")
 			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -843,11 +843,11 @@
 		(comp
 			(ref "C12")
 			(value "22uF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -897,11 +897,11 @@
 		(comp
 			(ref "C13")
 			(value "22uF")
+			(footprint "Capacitor_SMD:C_1206_3216Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1005,11 +1005,11 @@
 		(comp
 			(ref "F1")
 			(value "Polyfuse")
+			(footprint "PMHC_Footprints:F_1812_4532Metric")
 			(description "Resettable fuse, polymeric positive temperature coefficient")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "PMHC_Footprints:F_1812_4532Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1059,11 +1059,11 @@
 		(comp
 			(ref "J1")
 			(value "JST-PH")
+			(footprint "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -1113,11 +1113,11 @@
 		(comp
 			(ref "L1")
 			(value "3.3uH")
+			(footprint "Inductor_SMD:L_Coilcraft_XFL2010")
 			(description "Inductor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Inductor_SMD:L_Coilcraft_XFL2010")
 				(field
 					(name "Datasheet")
 				)
@@ -1167,11 +1167,11 @@
 		(comp
 			(ref "L2")
 			(value "4.7uH")
+			(footprint "Inductor_SMD:L_Coilcraft_XAL4020-XXX")
 			(description "Inductor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Inductor_SMD:L_Coilcraft_XAL4020-XXX")
 				(field
 					(name "Datasheet")
 				)
@@ -1278,11 +1278,11 @@
 		(comp
 			(ref "R1")
 			(value "30.9k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1332,11 +1332,11 @@
 		(comp
 			(ref "R2")
 			(value "10k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1386,11 +1386,11 @@
 		(comp
 			(ref "R3")
 			(value "10k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1440,11 +1440,11 @@
 		(comp
 			(ref "R4")
 			(value "52.3k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1494,11 +1494,11 @@
 		(comp
 			(ref "R5")
 			(value "10k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1680,11 +1680,11 @@
 		(comp
 			(ref "C14")
 			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1734,11 +1734,11 @@
 		(comp
 			(ref "C15")
 			(value "4.7uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1788,11 +1788,11 @@
 		(comp
 			(ref "C16")
 			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1842,13 +1842,13 @@
 		(comp
 			(ref "D2")
 			(value "STATUS_G")
+			(footprint "LED_SMD:LED_0201_0603Metric")
 			(description "Light emitting diode")
 			(fields
 				(field
 					(name "Sim.Pins") "1=K 2=A")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LED_SMD:LED_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1902,13 +1902,13 @@
 		(comp
 			(ref "D3")
 			(value "ERROR_R")
+			(footprint "LED_SMD:LED_0201_0603Metric")
 			(description "Light emitting diode")
 			(fields
 				(field
 					(name "Sim.Pins") "1=K 2=A")
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "LED_SMD:LED_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1962,11 +1962,11 @@
 		(comp
 			(ref "R6")
 			(value "10k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2016,11 +2016,11 @@
 		(comp
 			(ref "R9")
 			(value "10k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2070,11 +2070,11 @@
 		(comp
 			(ref "R10")
 			(value "470")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2124,11 +2124,11 @@
 		(comp
 			(ref "R11")
 			(value "470")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
 			(description "Resistor")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2178,11 +2178,11 @@
 		(comp
 			(ref "SW1")
 			(value "SW_Push")
+			(footprint "Button_Switch_SMD:SW_SPST_EVQP2_MiddlePushTravel_H2.5mm")
 			(description "Push button switch, generic, two pins")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Button_Switch_SMD:SW_SPST_EVQP2_MiddlePushTravel_H2.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2373,13 +2373,375 @@
 			)
 		)
 		(comp
-			(ref "0.1")
-			(value "R_Shunt1")
+			(ref "C17")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Current_Sense")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Sense.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Current_Sense/")
+				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
+			)
+			(tstamps "9b3efde3-608c-44c6-8fa3-15f289ae5375")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "Current_Sense")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Sense.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Current_Sense/")
+				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
+			)
+			(tstamps "2c1f5537-0263-4393-a8f8-918882b99337")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "Current_Sense")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Sense.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Current_Sense/")
+				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
+			)
+			(tstamps "f2206edd-70f3-49af-9417-2728e1431950")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "Current_Sense")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Sense.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Current_Sense/")
+				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
+			)
+			(tstamps "0c283796-241d-4e96-b30d-6899dc2c508d")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "Current_Sense")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Sense.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/Current_Sense/")
+				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
+			)
+			(tstamps "5763d435-c234-48c9-ba5b-135e240d4cb1")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "4.7k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Current_Sense")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Sense.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Current_Sense/")
+				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
+			)
+			(tstamps "11fc8350-2bdd-4b0f-ba36-9cfeff549a45")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "4.7k")
+			(footprint "Resistor_SMD:R_0201_0603Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0201_0603Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Current_Sense")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Current_Sense.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Current_Sense/")
+				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
+			)
+			(tstamps "5e875ab1-6566-4057-884f-55c19d66b826")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R_Shunt1")
+			(value "0.1")
+			(footprint "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T2.21mm")
 			(description "Shunt resistor with Kelvin connections")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T2.21mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2433,375 +2795,13 @@
 			)
 		)
 		(comp
-			(ref "C17")
-			(value "0.1uF")
-			(description "Unpolarized capacitor")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Unpolarized capacitor")
-			)
-			(libsource
-				(lib "Device")
-				(part "C")
-				(description "Unpolarized capacitor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Current_Sense")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Current_Sense.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "cap capacitor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "C_*")
-			)
-			(sheetpath
-				(names "/Current_Sense/")
-				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
-			)
-			(tstamps "9b3efde3-608c-44c6-8fa3-15f289ae5375")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "H1")
-			(value "MountingHole")
-			(description "Mounting Hole without connection")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Mounting Hole without connection")
-			)
-			(libsource
-				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
-			)
-			(property
-				(name "Sheetname")
-				(value "Current_Sense")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Current_Sense.kicad_sch")
-			)
-			(property
-				(name "exclude_from_bom")
-			)
-			(property
-				(name "ki_keywords")
-				(value "mounting hole")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "MountingHole*")
-			)
-			(sheetpath
-				(names "/Current_Sense/")
-				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
-			)
-			(tstamps "2c1f5537-0263-4393-a8f8-918882b99337")
-			(units
-				(unit
-					(name "A")
-					(pins)
-				)
-			)
-		)
-		(comp
-			(ref "H2")
-			(value "MountingHole")
-			(description "Mounting Hole without connection")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Mounting Hole without connection")
-			)
-			(libsource
-				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
-			)
-			(property
-				(name "Sheetname")
-				(value "Current_Sense")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Current_Sense.kicad_sch")
-			)
-			(property
-				(name "exclude_from_bom")
-			)
-			(property
-				(name "ki_keywords")
-				(value "mounting hole")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "MountingHole*")
-			)
-			(sheetpath
-				(names "/Current_Sense/")
-				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
-			)
-			(tstamps "f2206edd-70f3-49af-9417-2728e1431950")
-			(units
-				(unit
-					(name "A")
-					(pins)
-				)
-			)
-		)
-		(comp
-			(ref "H3")
-			(value "MountingHole")
-			(description "Mounting Hole without connection")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Mounting Hole without connection")
-			)
-			(libsource
-				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
-			)
-			(property
-				(name "Sheetname")
-				(value "Current_Sense")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Current_Sense.kicad_sch")
-			)
-			(property
-				(name "exclude_from_bom")
-			)
-			(property
-				(name "ki_keywords")
-				(value "mounting hole")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "MountingHole*")
-			)
-			(sheetpath
-				(names "/Current_Sense/")
-				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
-			)
-			(tstamps "0c283796-241d-4e96-b30d-6899dc2c508d")
-			(units
-				(unit
-					(name "A")
-					(pins)
-				)
-			)
-		)
-		(comp
-			(ref "H4")
-			(value "MountingHole")
-			(description "Mounting Hole without connection")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Mounting Hole without connection")
-			)
-			(libsource
-				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
-			)
-			(property
-				(name "Sheetname")
-				(value "Current_Sense")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Current_Sense.kicad_sch")
-			)
-			(property
-				(name "exclude_from_bom")
-			)
-			(property
-				(name "ki_keywords")
-				(value "mounting hole")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "MountingHole*")
-			)
-			(sheetpath
-				(names "/Current_Sense/")
-				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
-			)
-			(tstamps "5763d435-c234-48c9-ba5b-135e240d4cb1")
-			(units
-				(unit
-					(name "A")
-					(pins)
-				)
-			)
-		)
-		(comp
-			(ref "R7")
-			(value "4.7k")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Current_Sense")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Current_Sense.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Current_Sense/")
-				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
-			)
-			(tstamps "11fc8350-2bdd-4b0f-ba36-9cfeff549a45")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R8")
-			(value "4.7k")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "Current_Sense")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Current_Sense.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/Current_Sense/")
-				(tstamps "/d4bb029e-f2b4-4211-8168-30cb6e1b2574/")
-			)
-			(tstamps "5e875ab1-6566-4057-884f-55c19d66b826")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "TP1")
 			(value "VBAT")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2848,11 +2848,11 @@
 		(comp
 			(ref "TP2")
 			(value "VBAT_PROT")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2899,11 +2899,11 @@
 		(comp
 			(ref "TP3")
 			(value "5V")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -2950,11 +2950,11 @@
 		(comp
 			(ref "TP4")
 			(value "3V3")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -3001,11 +3001,11 @@
 		(comp
 			(ref "TP5")
 			(value "GND")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -3052,11 +3052,11 @@
 		(comp
 			(ref "TP6")
 			(value "RESET")
+			(footprint "TestPoint:TestPoint_Pad_D1.0mm")
 			(description "test point")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "TestPoint:TestPoint_Pad_D1.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -3250,11 +3250,11 @@
 		(comp
 			(ref "J3")
 			(value "COMPANION")
+			(footprint "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal")
 			(description "Generic connector, single row, 01x03, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -3307,11 +3307,11 @@
 		(comp
 			(ref "J4")
 			(value "CAM PWR")
+			(footprint "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal")
 			(description "Generic connector, single row, 01x02, script generated")
 			(fields
 				(field
-					(name "Footprint")
-				)
+					(name "Footprint") "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal")
 				(field
 					(name "Datasheet")
 				)
@@ -4385,14 +4385,14 @@
 			(name "/Connectors_Comms/5V_CAM")
 			(class "Default")
 			(node
-				(ref "0.1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "J4")
 				(pin "1")
 				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_Shunt1")
+				(pin "1")
 				(pintype "passive")
 			)
 		)
@@ -4513,11 +4513,6 @@
 			(name "/Current_Sense/5V")
 			(class "Default")
 			(node
-				(ref "0.1")
-				(pin "4")
-				(pintype "passive")
-			)
-			(node
 				(ref "C12")
 				(pin "1")
 				(pintype "passive")
@@ -4536,6 +4531,11 @@
 			(node
 				(ref "R4")
 				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R_Shunt1")
+				(pin "4")
 				(pintype "passive")
 			)
 			(node
@@ -4594,7 +4594,7 @@
 			(name "/Current_Sense/VIN+")
 			(class "Default")
 			(node
-				(ref "0.1")
+				(ref "R_Shunt1")
 				(pin "3")
 				(pintype "passive")
 			)
@@ -4610,7 +4610,7 @@
 			(name "/Current_Sense/VIN-")
 			(class "Default")
 			(node
-				(ref "0.1")
+				(ref "R_Shunt1")
 				(pin "2")
 				(pintype "passive")
 			)

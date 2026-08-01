@@ -1903,7 +1903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 228.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1982,7 +1982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 196.85 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2057,7 +2057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 145.542 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -2139,7 +2139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 195.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2214,7 +2214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 217.17 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2270,8 +2270,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41435813-79e3-47e6-9ef0-930f3a057498")
-		(property "Reference" "0.1"
-			(at 80.01 101.6 0)
+		(property "Reference" "R_Shunt1"
+			(at 83.058 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2281,8 +2281,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Shunt1"
-			(at 82.55 99.314 0)
+		(property "Value" "0.1"
+			(at 81.026 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2292,7 +2292,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T2.21mm"
 			(at 83.312 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -2340,7 +2340,7 @@
 		(instances
 			(project "hardware"
 				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/d4bb029e-f2b4-4211-8168-30cb6e1b2574"
-					(reference "0.1")
+					(reference "R_Shunt1")
 					(unit 1)
 				)
 			)
@@ -2457,7 +2457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 217.17 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2532,7 +2532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 153.162 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -2873,7 +2873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 220.98 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2950,7 +2950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 87.9348 0)
 			(hide yes)
 			(show_name no)
@@ -3031,7 +3031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 232.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3186,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 224.79 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3264,7 +3264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 213.36 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3343,7 +3343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
