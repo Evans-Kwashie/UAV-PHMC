@@ -1821,12 +1821,6 @@
 		(uuid "10e77853-b361-45a3-8e5d-659e5c9f0acc")
 	)
 	(junction
-		(at 43.18 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "264fa5a3-2e76-4434-abbf-1f8218457559")
-	)
-	(junction
 		(at 170.18 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1869,6 +1863,12 @@
 		(uuid "51490103-5869-41fa-a14f-d8495ceec073")
 	)
 	(junction
+		(at 67.31 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53246f54-2cd1-4188-9263-1103e5784a81")
+	)
+	(junction
 		(at 38.1 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1879,6 +1879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "566fa9ea-7d43-4ed1-b36f-0e99126b380f")
+	)
+	(junction
+		(at 78.74 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff5138b-8795-4cb4-a608-86fe0fc8518d")
 	)
 	(junction
 		(at 43.18 55.88)
@@ -1947,16 +1953,10 @@
 		(uuid "cf1d583b-ddfd-4d4a-8c1e-e5e880f5a72a")
 	)
 	(junction
-		(at 78.74 44.45)
+		(at 43.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d33734c4-d5a2-4918-989c-17aa2b0a9b3f")
-	)
-	(junction
-		(at 66.04 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2aa90f5-260a-47b1-8562-6a011c8a9fce")
+		(uuid "e681813c-7526-4d04-91e3-b3279bccfcc3")
 	)
 	(junction
 		(at 152.4 63.5)
@@ -2026,13 +2026,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 46.99 55.88)
+			(xy 46.99 55.88) (xy 67.31 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07953aa4-5142-4edd-9e9a-58916524ccc1")
+		(uuid "07c404ca-c280-4083-8a59-a66f5796b2b6")
 	)
 	(wire
 		(pts
@@ -2056,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 44.45) (xy 60.96 44.45)
+			(xy 58.42 44.45) (xy 62.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2133,6 +2133,16 @@
 			(type default)
 		)
 		(uuid "1a7e23b4-ff89-4a83-b059-89e4a6f3e4bd")
+	)
+	(wire
+		(pts
+			(xy 78.74 54.61) (xy 78.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e48fb56-2a1e-4583-8076-a0f164ec6678")
 	)
 	(wire
 		(pts
@@ -2296,6 +2306,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 46.99) (xy 78.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3202c7-2437-48f1-9522-c1f2e82dea57")
+	)
+	(wire
+		(pts
 			(xy 257.81 73.66) (xy 257.81 74.93)
 		)
 		(stroke
@@ -2436,16 +2456,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 44.45) (xy 78.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72fcb4ec-3b56-412b-af2d-bc4e1fabcec1")
-	)
-	(wire
-		(pts
 			(xy 87.63 132.08) (xy 72.39 132.08)
 		)
 		(stroke
@@ -2486,6 +2496,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 44.45) (xy 87.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae4d735-858e-4003-b92e-576215a076f4")
+	)
+	(wire
+		(pts
 			(xy 38.1 50.8) (xy 38.1 55.88)
 		)
 		(stroke
@@ -2503,6 +2523,16 @@
 			(type default)
 		)
 		(uuid "7b2bd43e-9e2e-41d1-8a9b-dba6b2ce76ef")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9ec1c6-7b6e-4400-a4ca-040befa8b964")
 	)
 	(wire
 		(pts
@@ -2606,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 44.45) (xy 49.53 44.45)
+			(xy 43.18 44.45) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 52.07) (xy 66.04 55.88)
+			(xy 67.31 52.07) (xy 67.31 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2633,16 +2663,6 @@
 			(type default)
 		)
 		(uuid "956183bf-fc29-43aa-b5e5-b8b500c0e858")
-	)
-	(wire
-		(pts
-			(xy 78.74 55.88) (xy 78.74 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b2cea0-bc8e-4cfd-a95b-e29a962fd1a7")
 	)
 	(wire
 		(pts
@@ -2936,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 78.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9584036-73cc-4587-a32e-77692da8d431")
-	)
-	(wire
-		(pts
 			(xy 48.26 147.32) (xy 48.26 144.78)
 		)
 		(stroke
@@ -2953,16 +2963,6 @@
 			(type default)
 		)
 		(uuid "eb996ff7-75d4-4fff-b9e6-db9260f9327c")
-	)
-	(wire
-		(pts
-			(xy 78.74 46.99) (xy 78.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0678c5-f2d8-4141-852a-c3cc1ceb5563")
 	)
 	(wire
 		(pts
@@ -2996,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 44.45) (xy 87.63 44.45)
+			(xy 72.39 44.45) (xy 78.74 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +3470,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 66.04 46.99 90)
+		(at 67.31 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3481,7 +3481,7 @@
 		(fields_autoplaced yes)
 		(uuid "1387fe7c-b8cb-43bd-a844-8fe66b9ad0f9")
 		(property "Reference" "Q1"
-			(at 66.04 38.1 90)
+			(at 67.31 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3491,7 +3491,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 66.04 40.64 90)
+			(at 67.31 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3501,7 +3501,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 67.945 41.91 0)
+			(at 69.215 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3514,7 +3514,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 69.85 41.91 0)
+			(at 71.12 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,7 +3526,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 66.04 46.99 0)
+			(at 67.31 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,87 +3709,6 @@
 			(project "hardware"
 				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/c4031b1d-7f3d-4b6a-a2f0-344523c40f4b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 43.18 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "262ddf6b-c2e4-4b07-925a-b7e618ed04dc")
-		(property "Reference" "C1"
-			(at 45.72 48.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 45.72 51.054 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 44.1452 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 43.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65a94e0a-75be-440b-8258-bf2a4e133f12")
-		)
-		(pin "2"
-			(uuid "08511e19-a119-45e1-a6f7-619421e7284a")
-		)
-		(instances
-			(project "hardware"
-				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/c4031b1d-7f3d-4b6a-a2f0-344523c40f4b"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4047,88 +3966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ10A")
-		(at 78.74 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4afee012-f85a-491a-9ce2-fa01444941b6")
-		(property "Reference" "D1"
-			(at 81.28 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ10A"
-			(at 81.28 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 73.66 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 78.74 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
-			(at 78.74 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "54545c99-6451-4039-b80c-9a422381d767")
-		)
-		(pin "1"
-			(uuid "48e7a351-6139-440d-b711-54d5aa4a140c")
-		)
-		(instances
-			(project "hardware"
-				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/c4031b1d-7f3d-4b6a-a2f0-344523c40f4b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 170.18 72.39 0)
 		(unit 1)
@@ -4367,7 +4204,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 53.34 44.45 90)
+		(at 54.61 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4378,7 +4215,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fd11c77-9b14-4685-bdef-999eb860df88")
 		(property "Reference" "F1"
-			(at 53.34 38.1 90)
+			(at 54.61 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4388,7 +4225,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 53.34 40.64 90)
+			(at 54.61 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4398,7 +4235,7 @@
 			)
 		)
 		(property "Footprint" "PMHC_Footprints:F_1812_4532Metric"
-			(at 58.42 43.18 0)
+			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4410,7 +4247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 44.45 0)
+			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4258,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 53.34 44.45 0)
+			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4599,6 +4436,87 @@
 			(project "hardware"
 				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/c4031b1d-7f3d-4b6a-a2f0-344523c40f4b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ10A")
+		(at 43.18 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68449cc4-5743-48f8-8258-84ec7a392b06")
+		(property "Reference" "D1"
+			(at 45.72 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ10A"
+			(at 45.466 50.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
+			(at 43.18 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f36804b4-b46c-40d6-8167-de19c0ce02ca")
+		)
+		(pin "1"
+			(uuid "71d2175d-f87f-45e7-955c-552d3665d1df")
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/c4031b1d-7f3d-4b6a-a2f0-344523c40f4b"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5467,6 +5385,87 @@
 			(project "hardware"
 				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/c4031b1d-7f3d-4b6a-a2f0-344523c40f4b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9aab905-a1f8-4492-8899-9feaceb77057")
+		(property "Reference" "C1"
+			(at 81.28 49.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 81.28 52.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 79.7052 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b508ede-9e33-44b4-aa22-ef99db4e1830")
+		)
+		(pin "2"
+			(uuid "fa3df264-b7fc-4bc4-9391-5e32607cf5bf")
+		)
+		(instances
+			(project "hardware"
+				(path "/cab50fbb-ebde-4823-857c-a8c6585217dd/c4031b1d-7f3d-4b6a-a2f0-344523c40f4b"
+					(reference "C1")
 					(unit 1)
 				)
 			)
