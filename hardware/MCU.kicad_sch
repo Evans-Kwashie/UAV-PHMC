@@ -1807,10 +1807,6 @@
 		(uuid "138cf0d3-538c-48af-8aa6-997fab941731")
 	)
 	(no_connect
-		(at 186.69 101.6)
-		(uuid "159e1b6e-d0a1-4fc7-ae14-6a2f2b9bb253")
-	)
-	(no_connect
 		(at 135.89 116.84)
 		(uuid "1c2ae1ed-a472-435a-83b1-3c7e8ce10339")
 	)
@@ -1851,6 +1847,10 @@
 		(uuid "a3c48a16-6bb0-49dc-a481-065d9052de38")
 	)
 	(no_connect
+		(at 135.89 101.6)
+		(uuid "a9012b9d-9ff7-4bfa-b6f3-13176c01eb10")
+	)
+	(no_connect
 		(at 135.89 104.14)
 		(uuid "c52366c2-390f-4195-857c-185cd49d769a")
 	)
@@ -1868,16 +1868,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 100.33) (xy 190.5 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "017dbb24-57c6-4e7c-8eb3-9bf4ea2e77fd")
-	)
-	(wire
-		(pts
 			(xy 215.9 82.55) (xy 219.71 82.55)
 		)
 		(stroke
@@ -1885,16 +1875,6 @@
 			(type default)
 		)
 		(uuid "07d94be5-8cde-4447-ac65-c70626820c7b")
-	)
-	(wire
-		(pts
-			(xy 128.27 101.6) (xy 135.89 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aae2156-0234-4453-918d-451327d068df")
 	)
 	(wire
 		(pts
@@ -1998,16 +1978,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 100.33) (xy 195.58 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d71e861-76af-4147-8f93-f940827a4013")
-	)
-	(wire
-		(pts
 			(xy 111.76 83.82) (xy 111.76 82.55)
 		)
 		(stroke
@@ -2075,6 +2045,16 @@
 			(type default)
 		)
 		(uuid "4ddf6d9b-ac9d-43ba-9da0-99699f8f9906")
+	)
+	(wire
+		(pts
+			(xy 186.69 101.6) (xy 209.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe2b75e-4abd-4324-b164-2d6f610fbe75")
 	)
 	(wire
 		(pts
@@ -2338,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 190.5 99.06)
+			(xy 186.69 99.06) (xy 195.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2378,7 +2358,7 @@
 	)
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
-		(at 195.58 100.33 0)
+		(at 195.58 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2397,6 +2377,17 @@
 			(justify right)
 		)
 		(uuid "11ebc0ea-595f-46e8-bb97-7976ab4d5374")
+	)
+	(hierarchical_label "EN_RAILB"
+		(shape input)
+		(at 209.55 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e62bc2c-c35e-49a3-bb10-47169f18c3b7")
 	)
 	(hierarchical_label "SWDIO"
 		(shape output)
@@ -2430,17 +2421,6 @@
 			(justify right)
 		)
 		(uuid "9701c80f-6406-4844-9dbd-4c90efc99f5d")
-	)
-	(hierarchical_label "EN_RAILB"
-		(shape input)
-		(at 128.27 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5d54c4f-2caa-45e4-92ca-59df5e91755b")
 	)
 	(hierarchical_label "USART2_RX"
 		(shape input)
