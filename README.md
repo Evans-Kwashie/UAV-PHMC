@@ -130,6 +130,10 @@ The inclusion of manufacturing outputs does not imply that the board has been fa
 - **Gerber** — PCB fabrication data.
 - **3D CAD** — PCB visualization and mechanical inspection.
 
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
 ## Author
 
 **Evans Klenam Kwashie-Seyram**
