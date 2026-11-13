@@ -130,9 +130,17 @@ The inclusion of manufacturing outputs does not imply that the board has been fa
 - **Gerber** — PCB fabrication data.
 - **3D CAD** — PCB visualization and mechanical inspection.
 
-## License
+## Licensing
 
-This project is licensed under the [MIT License](./LICENSE).
+### Hardware design
+
+The hardware design files in this repository, including schematics, PCB layouts, manufacturing outputs and related hardware documentation, are licensed under the **CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)**. See [LICENSE](./LICENSE).
+
+The complete source for this hardware design is available in this repository: https://github.com/Evans-Kwashie/UAV-PHMC
+
+### Software
+
+Any firmware, software or code in this repository that is explicitly identified as software is licensed under the **MIT License**. See [LICENSE-MIT](./LICENSE-MIT). Third-party components remain under their respective licences.
 
 ## Author
 
