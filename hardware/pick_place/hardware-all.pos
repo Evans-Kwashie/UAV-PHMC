@@ -1,0 +1,61 @@
+### Footprint positions - created on 2026-08-07T03:04:18 ###
+### Printed by KiCad version 10.0.4
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val             Package                                                PosX       PosY       Rot  Side
+C1        47uF            C_1210_3225Metric                                  147.5250   -75.7500  180.0000  top
+C2        10uF            C_0805_2012Metric                                  145.2500   -64.7000   90.0000  top
+C3        10uF            C_0805_2012Metric                                  143.0000   -64.7000   90.0000  top
+C4        0.1uF           C_0603_1608Metric                                  140.9000   -64.7250   90.0000  top
+C5        0.1uF           C_0603_1608Metric                                  137.7500   -62.7500    0.0000  top
+C6        22uF            C_1206_3216Metric                                  135.2750   -57.7500  180.0000  top
+C7        22uF            C_1206_3216Metric                                  135.2750   -55.2500  180.0000  top
+C8        10uF            C_0805_2012Metric                                  151.8000   -81.2500  180.0000  top
+C9        10uF            C_0805_2012Metric                                  151.8000   -83.5000  180.0000  top
+C10       0.1uF           C_0603_1608Metric                                  152.0250   -85.5000  180.0000  top
+C11       0.1uF           C_0603_1608Metric                                  149.7500   -88.7750   90.0000  top
+C12       22uF            C_1206_3216Metric                                  139.9000   -83.5500   90.0000  top
+C13       22uF            C_1206_3216Metric                                  142.5000   -83.5250   90.0000  top
+C14       100nF           C_0603_1608Metric                                  130.5000   -65.7250   90.0000  top
+C15       4.7uF           C_0603_1608Metric                                  128.7500   -65.7250  -90.0000  top
+C16       100nF           C_0603_1608Metric                                  125.3500   -64.3000  180.0000  top
+C17       0.1uF           C_0603_1608Metric                                  127.7500   -83.1000   90.0000  top
+D1        SMAJ10A         D_SMA                                              153.0000   -68.0500  180.0000  top
+D2        STATUS_G        LED_0201_0603Metric                                124.9800   -74.7500    0.0000  top
+D3        ERROR_R         LED_0201_0603Metric                                124.9550   -75.7500    0.0000  top
+F1        Polyfuse        F_1812_4532Metric                                  154.5000   -73.5000  -90.0000  top
+H1        MountingHole    MountingHole_2.2mm_M2                              120.0000   -55.8000    0.0000  top
+H2        MountingHole    MountingHole_2.2mm_M2                              159.6000   -55.8000    0.0000  top
+H3        MountingHole    MountingHole_2.2mm_M2                              120.0000   -89.0000    0.0000  top
+H4        MountingHole    MountingHole_2.2mm_M2                              159.6000   -89.2000    0.0000  top
+J1        JST-PH          JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal   152.0000   -60.8500  180.0000  top
+J2        SWD_Debug       Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical    137.5000   -75.3850    0.0000  top
+J3        COMPANION       JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal   120.0000   -72.0000  -90.0000  top
+J4        CAM_PWR         JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal   120.0000   -81.7500  -90.0000  top
+L1        3.3uH           L_Coilcraft_XFL2010                                137.5750   -60.5000  180.0000  top
+L2        4.7uH           L_Coilcraft_XAL4020-XXX                            146.2500   -86.5650   90.0000  top
+Q1        AO3401A         SOT-23                                             150.0625   -71.9500    0.0000  top
+R1        30.9k           R_0201_0603Metric                                  135.9300   -64.2500  180.0000  top
+R2        10k             R_0201_0603Metric                                  136.0000   -65.2500    0.0000  top
+R3        10k             R_0201_0603Metric                                  139.2000   -67.4000  180.0000  top
+R4        52.3k           R_0201_0603Metric                                  151.8550   -91.0000    0.0000  top
+R5        10k             R_0201_0603Metric                                  152.5200   -90.0000  180.0000  top
+R6        10k             R_0201_0603Metric                                  134.5000   -72.0000  -90.0000  top
+R7        4.7k            R_0201_0603Metric                                  130.5700   -74.7875  180.0000  top
+R8        4.7k            R_0201_0603Metric                                  128.9050   -74.7875    0.0000  top
+R9        10k             R_0201_0603Metric                                  125.6000   -67.6000  -90.0000  top
+R10       470             R_0201_0603Metric                                  123.1000   -77.4450  -90.0000  top
+R11       470             R_0201_0603Metric                                  124.1000   -77.4300  -90.0000  top
+R_Shunt1  0.1             R_Shunt_Vishay_WSK2512_6332Metric_T2.21mm          130.2700   -87.8650    0.0000  top
+SW1       SW_Push         SW_SPST_EVQP2_MiddlePushTravel_H2.5mm              127.7500   -60.0000    0.0000  top
+TP1       VBAT            TestPoint_Pad_D1.0mm                               158.7500   -71.2500    0.0000  top
+TP2       VBAT_PROT       TestPoint_Pad_D1.0mm                               155.5000   -78.7500    0.0000  top
+TP3       5V              TestPoint_Pad_D1.0mm                               138.5000   -88.8000   90.0000  top
+TP4       3V3             TestPoint_Pad_D1.0mm                               132.7500   -64.7500  180.0000  top
+TP5       GND             TestPoint_Pad_D1.0mm                               136.5000   -80.0000  180.0000  top
+TP6       RESET           TestPoint_Pad_D1.0mm                               123.0000   -61.0000  -90.0000  top
+U1        TPS562202S      SOT-563                                            138.7125   -64.7500  180.0000  top
+U2        TPS562202S      SOT-563                                            151.7000   -87.7125  -90.0000  top
+U3        STM32G071KBUxN  QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm              130.0000   -70.6000  -90.0000  top
+U4        INA226          TSSOP-10_3x3mm_P0.5mm                              130.5000   -80.8500  -90.0000  top
+## End

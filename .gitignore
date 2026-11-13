@@ -3,3 +3,7 @@
 *-backups/
 *.history
 
+
+# KiCad temporary files
+*.kicad_prl
+*.lck
