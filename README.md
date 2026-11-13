@@ -7,6 +7,10 @@ The project brings together power regulation, hardware interfaces, monitoring ci
 
 The repository contains the KiCad hardware design files alongside manufacturing outputs for PCB fabrication and assembly.
 
+<p align="center">
+  <img src="hardware/hardware.png" alt="UAV-PHMC PCB Hardware Design" width="850">
+</p>
+
 ---
 
 ## Project Overview
