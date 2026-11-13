@@ -616,8 +616,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/USER/Desktop/UAV-PHMC/hardware/gerbers/",
       "specctra_dsn": "",
+      "step": "hardware.glb",
       "vrml": ""
     },
     "page_layout_descr_file": ""
