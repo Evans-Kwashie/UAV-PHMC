@@ -4686,7 +4686,7 @@
 			)
 		)
 	)
-	(footprint "PMHC_Footprints:F_1812_4532Metric"
+	(footprint "PHMC_Footprints:F_1812_4532Metric"
 		(layer "F.Cu")
 		(uuid "7d5fb3e2-f48a-4140-aad1-dd5ca5bc6d6f")
 		(at 154.5 73.5 -90)
