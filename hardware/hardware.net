@@ -1679,7 +1679,7 @@
 		)
 		(comp
 			(ref "C14")
-			(value "100nF")
+			(value "0.1uF")
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
@@ -1787,7 +1787,7 @@
 		)
 		(comp
 			(ref "C16")
-			(value "100nF")
+			(value "0.1uF")
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
