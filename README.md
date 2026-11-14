@@ -1,5 +1,5 @@
 # UAV-PHMC
-### Payload Management & Health Controller
+### Payload Health & Management Controller
 
 UAV-PHMC is an embedded hardware project: a custom four-layer printed circuit board (PCB) for power management, health monitoring and payload interfacing on a small UAV.
 
@@ -131,6 +131,18 @@ Before manufacturing, verify that the Gerber outputs, drill files, BOM, and pick
 5. Inspect the schematic and PCB design as applicable.
 
 The 3D model can also be inspected using a compatible 3D viewer.
+
+## Programming and Boot
+
+The board is programmed and debugged over SWD through the Tag-Connect TC2030-NL footprint (J2).
+
+On the STM32G071, pin PA14 is shared between SWCLK and BOOT0. In this design the `SWCLK_BOOT0` net joins the Tag-Connect SWCLK pin, PA14 on U3, and a 10 kΩ pull-down resistor (R6) to ground.
+
+- At reset the microcontroller samples BOOT0. With the pin low it boots the application from flash, and R6 holds the pin low by default.
+- If the pin is held high at reset, for example by a debug probe driving SWCLK high, the microcontroller starts the STM32 system bootloader instead of the application.
+- After startup PA14 operates as SWCLK.
+
+If the board appears unresponsive with a probe attached, release the probe and reset the board again. The `nBOOT_SEL` option byte can be programmed so that the boot source comes from the option bytes instead of the pin. This frees PA14 from boot selection and removes pin-based bootloader entry.
 
 ## Project Status
 
