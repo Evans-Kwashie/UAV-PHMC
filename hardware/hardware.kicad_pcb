@@ -3761,7 +3761,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b271b759-99e6-4763-ba2b-ded5b1e304d2")
@@ -4686,7 +4686,7 @@
 			)
 		)
 	)
-	(footprint "PMHC_Footprints:F_1812_4532Metric"
+	(footprint "PHMC_Footprints:F_1812_4532Metric"
 		(layer "F.Cu")
 		(uuid "7d5fb3e2-f48a-4140-aad1-dd5ca5bc6d6f")
 		(at 154.5 73.5 -90)
@@ -7636,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "16e2de26-ad47-4e6b-8549-2750c443b82c")

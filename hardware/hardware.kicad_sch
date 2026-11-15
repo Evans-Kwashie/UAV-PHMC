@@ -5,7 +5,7 @@
 	(uuid "cab50fbb-ebde-4823-857c-a8c6585217dd")
 	(paper "A4")
 	(title_block
-		(title "Payload Management & Health Controller")
+		(title "Payload Health & Management Controller")
 		(date "2026-07-30")
 		(rev "V1.0")
 		(comment 1 "Project launch")

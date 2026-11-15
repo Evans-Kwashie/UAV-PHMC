@@ -9,7 +9,7 @@
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title "Payload Management & Health Controller")
+				(title "Payload Health & Management Controller")
 				(company)
 				(rev "V1.0")
 				(date "2026-07-30")
@@ -1005,11 +1005,11 @@
 		(comp
 			(ref "F1")
 			(value "Polyfuse")
-			(footprint "PMHC_Footprints:F_1812_4532Metric")
+			(footprint "PHMC_Footprints:F_1812_4532Metric")
 			(description "Resettable fuse, polymeric positive temperature coefficient")
 			(fields
 				(field
-					(name "Footprint") "PMHC_Footprints:F_1812_4532Metric")
+					(name "Footprint") "PHMC_Footprints:F_1812_4532Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1679,7 +1679,7 @@
 		)
 		(comp
 			(ref "C14")
-			(value "100nF")
+			(value "0.1uF")
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields
@@ -1787,7 +1787,7 @@
 		)
 		(comp
 			(ref "C16")
-			(value "100nF")
+			(value "0.1uF")
 			(footprint "Capacitor_SMD:C_0603_1608Metric")
 			(description "Unpolarized capacitor")
 			(fields

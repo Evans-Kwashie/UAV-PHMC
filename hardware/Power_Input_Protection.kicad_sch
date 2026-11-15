@@ -4278,7 +4278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PMHC_Footprints:F_1812_4532Metric"
+		(property "Footprint" "PHMC_Footprints:F_1812_4532Metric"
 			(at 59.69 43.18 0)
 			(hide yes)
 			(show_name no)
