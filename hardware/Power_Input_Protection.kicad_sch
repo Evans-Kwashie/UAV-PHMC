@@ -1857,12 +1857,6 @@
 		(uuid "427b2d57-c921-4e0b-9e98-b3a3e3e86d38")
 	)
 	(junction
-		(at 60.96 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b85d19c-f2d0-463a-9184-49e86184bf03")
-	)
-	(junction
 		(at 231.14 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1935,6 +1929,12 @@
 		(uuid "b5203a7a-5f6b-4ef1-9b51-5463c8fd84f9")
 	)
 	(junction
+		(at 60.96 44.45)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "be09bf33-e367-4a9d-8282-1ea738bc0d04")
+	)
+	(junction
 		(at 59.69 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1999,6 +1999,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7fbfee5-6023-4d9f-ba85-0376ce92ca19")
+	)
+	(no_connect
+		(at 22.86 43.18)
+		(uuid "61443381-ca71-431f-ae99-ac09c8f834ea")
 	)
 	(wire
 		(pts
@@ -2067,6 +2071,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 0 1)
 		)
 		(uuid "0cd29143-1379-496d-a516-03a50177d7cf")
 	)
@@ -2189,6 +2194,17 @@
 			(type default)
 		)
 		(uuid "20641a72-e038-46f3-9dc6-9714b26cfa47")
+	)
+	(wire
+		(pts
+			(xy 60.96 44.45) (xy 63.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "22b99515-6981-456e-90fb-e0015adfe30e")
 	)
 	(wire
 		(pts
@@ -2672,6 +2688,17 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 35.56) (xy 60.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "98a97293-a1ad-4fae-aeea-77d14ff44716")
+	)
+	(wire
+		(pts
 			(xy 218.44 63.5) (xy 218.44 76.2)
 		)
 		(stroke
@@ -2729,16 +2756,6 @@
 			(type default)
 		)
 		(uuid "b30d1f12-baf4-476c-8065-8b0ba024e0d6")
-	)
-	(wire
-		(pts
-			(xy 60.96 39.37) (xy 60.96 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b32a10ff-ff89-4099-b469-da14d9984028")
 	)
 	(wire
 		(pts
@@ -2849,16 +2866,6 @@
 			(type default)
 		)
 		(uuid "cf017cfe-cbd5-4eb6-b2c9-a1c359e1e59e")
-	)
-	(wire
-		(pts
-			(xy 60.96 44.45) (xy 63.5 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d271b05b-038b-4476-b1e1-4ad56379951a")
 	)
 	(wire
 		(pts
@@ -3070,6 +3077,17 @@
 		)
 		(uuid "ff9da6fd-bdde-429c-8570-45b908004722")
 	)
+	(label "VBAT_FUSED"
+		(at 60.96 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a550391-3188-4d01-9685-4b58ccac0333")
+	)
 	(hierarchical_label "3V3"
 		(shape output)
 		(at 267.97 63.5 0)
@@ -3080,17 +3098,6 @@
 			(justify left)
 		)
 		(uuid "04021582-455e-4a56-a916-1835624b79cf")
-	)
-	(hierarchical_label "VBAT_RAW"
-		(shape input)
-		(at 60.96 39.37 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c3009da-8e56-497d-8f02-5328c2802bb6")
 	)
 	(hierarchical_label "5V"
 		(shape output)
