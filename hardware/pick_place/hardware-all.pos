@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-08-07T03:04:18 ###
-### Printed by KiCad version 10.0.4
+### Footprint positions - created on 2026-11-15T00:30:11 ###
+### Printed by KiCad version 10.0.6
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val             Package                                                PosX       PosY       Rot  Side
@@ -16,9 +16,9 @@ C10       0.1uF           C_0603_1608Metric                                  152
 C11       0.1uF           C_0603_1608Metric                                  149.7500   -88.7750   90.0000  top
 C12       22uF            C_1206_3216Metric                                  139.9000   -83.5500   90.0000  top
 C13       22uF            C_1206_3216Metric                                  142.5000   -83.5250   90.0000  top
-C14       100nF           C_0603_1608Metric                                  130.5000   -65.7250   90.0000  top
+C14       0.1uF           C_0603_1608Metric                                  130.5000   -65.7250   90.0000  top
 C15       4.7uF           C_0603_1608Metric                                  128.7500   -65.7250  -90.0000  top
-C16       100nF           C_0603_1608Metric                                  125.3500   -64.3000  180.0000  top
+C16       0.1uF           C_0603_1608Metric                                  125.3500   -64.3000  180.0000  top
 C17       0.1uF           C_0603_1608Metric                                  127.7500   -83.1000   90.0000  top
 D1        SMAJ10A         D_SMA                                              153.0000   -68.0500  180.0000  top
 D2        STATUS_G        LED_0201_0603Metric                                124.9800   -74.7500    0.0000  top
