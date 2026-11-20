@@ -5,7 +5,7 @@ UAV-PHMC is an embedded hardware project: a custom four-layer printed circuit bo
 
 The board is designed to be light and to run from a 2S battery pack. It was modelled around the Ornadyne O1, a crow-shaped, propeller-free flapping-wing reconnaissance drone. This is an independent design and is not affiliated with Ornadyne.
 
-The repository contains the KiCad hardware design files alongside manufacturing outputs for PCB fabrication and assembly.
+The repository contains the KiCad hardware design files, manufacturing outputs for PCB fabrication and assembly, and an early STM32 firmware foundation with host-side tests.
 
 <p align="center">
   <img src="hardware/hardware.png" alt="UAV-PHMC PCB Hardware Design" width="850">
@@ -88,6 +88,17 @@ UAV-PHMC/
 │   ├── hardware.glb
 │   └── front.png, back.png, hardware.png
 │
+├── firmware/
+│   ├── app/              portable application logic
+│   ├── board/            board-specific signal definitions
+│   ├── drivers/          portable drivers and conversions
+│   ├── platform/stm32/   STM32 startup, entry point and linker script
+│   ├── tests/            host-native unit tests
+│   ├── third_party/      pinned CMSIS files and license notices
+│   ├── CMakeLists.txt
+│   ├── CMakePresets.json
+│   └── README.md         firmware build, test and limitation details
+│
 ├── references/             component datasheets
 │   ├── stm32g071c8.pdf
 │   ├── tps562202s.pdf
@@ -144,13 +155,46 @@ On the STM32G071, pin PA14 is shared between SWCLK and BOOT0. In this design the
 
 If the board appears unresponsive with a probe attached, release the probe and reset the board again. The `nBOOT_SEL` option byte can be programmed so that the boot source comes from the option bytes instead of the pin. This frees PA14 from boot selection and removes pin-based bootloader entry.
 
+## Firmware Development
+
+The `firmware/` directory contains an early, buildable STM32G071 firmware skeleton:
+
+- CMake and Ninja builds for STM32G071 using GNU Arm GCC.
+- Pinned CMSIS startup and device support with third-party license notices.
+- Fixed-point INA226 shunt-voltage and bus-voltage conversion.
+- Portable camera-command state machine with host-side tests.
+- ELF, BIN, HEX and linker-map build artifacts.
+
+From `firmware/`, run the host tests:
+
+```sh
+cmake --preset host
+cmake --build --preset host
+ctest --preset host
+```
+
+Build for the STM32 target:
+
+```sh
+cmake --preset stm32-release
+cmake --build --preset stm32-release
+```
+
+See [`firmware/README.md`](firmware/README.md) for prerequisites, artifact locations, dependency details and current limitations. Peripheral drivers, companion communication and physical camera-rail control are not yet implemented or validated.
+
+### V1 camera-rail limitation
+
+The camera regulator's active-high enable signal connects to PA12 [PA10], physical package pin 23. V1 has no external pull-down guaranteeing a disabled rail before firmware initializes the GPIO. Power-on and reset behavior is therefore unvalidated. The firmware uses `CAMERA_ON_COMMANDED` to distinguish a requested state from confirmed electrical behavior.
+
+A future hardware revision should add an appropriately sized external pull-down and validate startup, reset and rail switching on the physical PCB.
+
 ## Project Status
 
-**Hardware design and manufacturing outputs committed.**
+**Hardware design, manufacturing outputs and initial firmware skeleton committed.**
 
-The repository currently includes the PCB design, project configuration, BOM, Gerber fabrication files, drill data, pick-and-place coordinates, and 3D model.
+The repository includes the PCB design, project configuration, BOM, Gerber fabrication files, drill data, pick-and-place coordinates, 3D model and early firmware source with host tests.
 
-The inclusion of manufacturing outputs does not imply that the board has been fabricated, assembled, electrically validated, or flight-tested.
+The inclusion of manufacturing outputs and firmware does not imply that the board has been fabricated, assembled, electrically validated, programmed, or flight-tested. Successful host tests and cross-compilation demonstrate software behavior and target buildability only.
 
 ## Tools & Technologies
 
@@ -160,6 +204,9 @@ The inclusion of manufacturing outputs does not imply that the board has been fa
 - **TPS562202S**: Power regulation.
 - **Gerber**: PCB fabrication data.
 - **3D CAD**: PCB visualization and mechanical inspection.
+- **C / CMSIS**: Portable firmware and STM32 device support.
+- **CMake / Ninja / GNU Arm GCC**: Host and STM32 builds.
+- **CTest**: Host-native unit testing.
 
 ## Licensing
 
