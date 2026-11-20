@@ -7,3 +7,7 @@
 # KiCad temporary files
 *.kicad_prl
 *.lck
+
+# Firmware build outputs
+firmware/build/
+firmware/.vscode/
